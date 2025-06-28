@@ -2,7 +2,7 @@ obj-m := main.o
 ARCH=arm
 CROSS_COMPILE=arm-linux-gnueabihf-
 
-KERN_DIR = /home/nhat/myWorkspace/ldd/BBBLinuxDeviceDrivers/linux_4.19/
+KERN_DIR = ../../linux_4.19/
 HOST_KERN_DIR = /lib/modules/$(shell uname -r)/build/
 
 all:
